@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AgriSolutions-Login</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="./vendor/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./resource/css/login.css">
+    </head>
+    <body>
+        <section class="login">
+            <div class="login-header">
+                <h1>AgriSolutions</h1>
+                <h3 id="login_signup">If you haven't registered, click <a onclick="sign_up()">here</a>.</h2>
+            </div>
+            <div class="login-info">
+                <div class="row login-title">
+                    <h1 id="title">Login</h1>
+                </div>
+                <div class="row login-form">
+                    <form>
+                        <ul>
+                            <li>
+                                <h3 id="email_text">Enter your Email Id</h2>
+                                <input type="text" placeholder="Email Id..." id="email">
+                            </li>
+                            <li>
+                                <h3 id="pass_text">Enter your Password</h2>
+                                <input type="text" placeholder="Password..." id="password">
+                            </li>
+                            <li>
+                                <button class="btn" id="btn" onclick="login()">Login</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <h1> </h1>
+            </div>
+            <div>
+                <h4>All Rights Reserved with AgriSolutions.</h4>
+            </div>
+            <div class="row">
+                <h1> </h1>
+            </div>
+        </footer>
+        <script>
+            function login(){
+                if(document.getElementById("email").value==="" || document.getElementById("password")===""){
+                    alert("Some fields are missing. Try again!!");
+                }
+                else{
+                    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                    if(document.getElementById("email").value.match(mailformat))
+                    {
+                        alert("Welcome to the site.");
+                    }
+                    else{
+                        alert("You haven't entered a valid Email Id. Try again.");
+                    }
+                }
+            }
+
+
+            function sign_up(){
+                document.getElementById("title").innerHTML="Sign Up";
+                document.getElementById("login_signup").innerHTML="Sign Up now and become a leader!";
+                document.getElementById("btn").innerHTML="Sign Up";
+                document.getElementById("btn").onclick=function(){sign()};
+            }
+
+            function sign(){
+                if(document.getElementById("email").value==="" || document.getElementById("password")===""){
+                    alert("Some fields are missing. Try again!!");
+                }
+                else{
+                    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                    if(document.getElementById("email").value.match(mailformat))
+                    {
+                        document.getElementById("title").innerHTML="Login";
+                        document.getElementById("btn").onclick=function(){login()};
+                    }
+                    else{
+                        alert("You haven't entered a valid Email Id. Try again.");
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
