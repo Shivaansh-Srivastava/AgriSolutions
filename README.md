@@ -9,11 +9,15 @@ With capabilities of live reporting, analysis, interpretation and insight that s
 
 <h3>Home Page</h3>
 <p>The home page is where the user lands initially. From the AgriSolutions home page, the user can access the About Us page, Review page and Login/Register page.</p>
-<img src="https://drive.google.com/drive/u/0/folders/1vnKP--Tr_Gq_615TMwoUmUiEO1NF8Tu2">
+<!--![home_page](https://user-images.githubusercontent.com/72780341/137308058-40b427f8-eea7-49c4-89d2-a5cc4dee6f0d.JPG)-->
+
+<img src="https://user-images.githubusercontent.com/72780341/137308058-40b427f8-eea7-49c4-89d2-a5cc4dee6f0d.JPG">
 
 <h3>Registration Page</h3>
 <p>The portal allows the user to enter their user name and password to log in. Once credentials are verified, the user is directed to the dashboard. New users can create an account by registering on the registration page.</p>
-<img src="https://drive.google.com/drive/u/0/folders/1vnKP--Tr_Gq_615TMwoUmUiEO1NF8Tu2">
+<!--![login_page](https://user-images.githubusercontent.com/72780341/137308265-1765f858-795e-4dc0-aa6e-daa95daa52ae.JPG)-->
+
+<img src="https://user-images.githubusercontent.com/72780341/137308265-1765f858-795e-4dc0-aa6e-daa95daa52ae.JPG">
 
 <h3>Dashboard</h3>
 <p>The dashboard is where the client is able to get information that gives the user insights that span across geographies which includes weather reports, information on agricultural trade and costs of agricultural goods. 
@@ -22,8 +26,8 @@ It has a contact us option from where the user can interact with the team at Agr
 
 <h2>Contributors</h2>
 <ul>
-  <li><a href="#">Shivaansh Srivastava</a></li>
-  <li><a href="#">Shubhankita Sood</a></li>
-  <li><a href="#">Ishwarya Sood</a></li>
-  <li><a href="#">Shobin Shibu Mathew</a></li>
+  <li><a href="https://github.com/Shivaansh-Srivastava">Shivaansh Srivastava</a></li>
+  <li><a href="https://github.com/Shubhankita">Shubhankita Sood</a></li>
+  <li><a href="https://github.com/Ishu08">Ishwarya Sood</a></li>
+  <li><a href="https://github.com/shobin-mathew01">Shobin Shibu Mathew</a></li>
 </ul>
