@@ -28,6 +28,6 @@ It has a contact us option from where the user can interact with the team at Agr
 <ul>
   <li><a href="https://github.com/Shivaansh-Srivastava">Shivaansh Srivastava</a></li>
   <li><a href="https://github.com/Shubhankita">Shubhankita Sood</a></li>
-  <li><a href="https://github.com/Ishu08">Ishwarya Sood</a></li>
+  <li><a href="https://github.com/Ishu08">Ishwarya Murali</a></li>
   <li><a href="https://github.com/shobin-mathew01">Shobin Shibu Mathew</a></li>
 </ul>
